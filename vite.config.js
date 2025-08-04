@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/AMRUTAM/', //  Hardcode this unless you're managing env vars properly
+  base: process.env.VITE_BASE_PATH || '/AMRUTAM/', //  Hardcode this unless you're managing env vars properly
   plugins: [react()],
 })
