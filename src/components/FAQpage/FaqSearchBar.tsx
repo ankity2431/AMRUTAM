@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaSearch } from 'react-icons/fa';
+import searchbarBackground from '../../assets/SearchBar/searchbarBackground.png'
 
 const FaqSearchBar = () => {
   return (
     <section
       className="w-full bg-cover bg-center py-12 px-4 md:px-0"
       style={{
-        backgroundImage: `url('/src/assets/SearchBar/searchbarBackground.png')`, // <-- replace with your actual image path
+        backgroundImage: `url(${searchbarBackground})`, 
       }}
     >
       {/* Content Wrapper */}

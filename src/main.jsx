@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 import FaqLayout from './components/FAQpage/FaqLayout'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/AMRUTAM">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/faq" element={<FaqLayout />} />
