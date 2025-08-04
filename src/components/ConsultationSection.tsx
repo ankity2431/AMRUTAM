@@ -1,7 +1,8 @@
 import React, { useContext, useState } from "react";
-import iphone from "../assets/consultation/iphone.png";
-import iphone2 from "../assets/consultation/iphone2.png";
-import iphone3 from "../assets/consultation/iphone3.png";
+import iphone from "../assets/Consultation/iphone.png";
+import iphone2 from "../assets/Consultation/iphone2.png";
+import iphone3 from "../assets/Consultation/iphone3.png";
+
 import { SelectedIndexContext } from "../assets/utils/SelectedIndexContext";
 
 const ConsultationSection = () => {
