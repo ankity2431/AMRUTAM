@@ -8,7 +8,7 @@ const JoinCircleVisual = () => {
     <img
       src="../src/assets/JoinUsImg/fullphoto.png"
       alt="Form"
-      className="w-[480px] relative z-[2] rounded-xl shadow-lg h-[250px] object-cover"
+      className="w-[480px] relative z-[2] rounded-xl shadow-lg h-[207px] sm:h-[250px] object-cover"
     />
     <img
       src="../src/assets/JoinUsImg/joinUsform.png"

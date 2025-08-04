@@ -17,7 +17,7 @@ const Dpromotion = ({ title, description, reverse, image }) => {
       </div>
 
       {/* Text Content */}
-      <div className="w-full md:w-1/2 text-center md:text-left md:p-28">
+      <div className="w-full md:w-1/2 text-center md:text-left lg:p-28">
         <h3 className="text-lg md:text-2xl font-semibold text-[#245c38] mb-3">
           {title}
         </h3>

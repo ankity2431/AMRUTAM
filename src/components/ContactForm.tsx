@@ -12,11 +12,11 @@ const ContactForm = () => {
         </p>
 
         <div className="flex flex-wrap gap-10 justify-center items-start">
-          <div className="flex-1 min-w-[300px] md:h-[330px] rounded-[10px]">
-            <img src={contactImg} alt="contact" className="w-full object-contain rounded-lg" />
+          <div className="sm:flex-1  md:h-[330px] rounded-[10px]">
+            <img src={contactImg} alt="contact" className="w-full rounded-lg h-[330px]" />
           </div>
 
-          <form className="flex-1 min-w-[350px] max-w-[450px] bg-white border border-gray-300 rounded-[8px] p-6 text-left">
+          <form className="flex-1  bg-white border border-gray-300 rounded-[8px] p-6 text-left">
             <div className="flex gap-5 mb-5">
               <div className="flex-1">
                 <label className="block text-[#3A643B] font-thin text-xs mb-1">Your Name</label>

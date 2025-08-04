@@ -15,7 +15,7 @@ const JoinCircle = () => {
             <p className="text-[15px] text-[#555]">Becoming a part of Amrutam is simple</p>
           </div>
     
-          <div className="flex flex-wrap md:flex-nowrap gap-10 items-center justify-between">
+          <div className="flex flex-wrap lg:flex-nowrap gap-10 items-center justify-center lg:justify-between">
             {/* Left Steps */}
             <div className="flex-1 flex flex-col gap-4 md:pl-[5rem] md:pr-[7rem]">
               {ConsultationSteps[selectedIndex === 0 ? 'Consultations' : selectedIndex === 1 ? 'Payment withdrawal' : 'Schedule'].map((step, index) => (
