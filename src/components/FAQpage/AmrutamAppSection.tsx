@@ -1,6 +1,7 @@
 import React from 'react';
-import messageLogo from '/src/assets/SearchBar/messagelogo.png'
-import faqPageImg from '/src/assets/SearchBar/faqPageImg.png'
+import messageLogo from '../../assets/SearchBar/messagelogo.png';
+import faqPageImg from '../../assets/SearchBar/FaqPageimg.png';
+
 import { GOOGLE_STORE, APPLE_STORE } from '../../assets/utils/constant';
 
 const features = [
