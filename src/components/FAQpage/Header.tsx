@@ -68,7 +68,7 @@ const Navbar = () => {
           </ul>
 
           {/* Icons */}
-          <div className="flex items-center gap-2">
+          <div className="flex md:flex-col lg:flex-row items-center gap-2">
             {actionIcons.map(({ icon: Icon, count }, i) => (
               <div
                 key={i}
@@ -89,13 +89,15 @@ const Navbar = () => {
         </div>
 
         {/* Mobile NavLinks */}
+      
         <div className="flex flex-col items-center gap-4 md:hidden mt-6 text-[#1f4f31] text-sm font-medium">
-          {navLinks.map((link, i) => (
-            <a key={i} href="#" className="hover:opacity-75 transition">
-              {link}
-            </a>
-          ))}
-        </div>
+  {navLinks.map((link, i) => (
+    <Link key={i} to="/" className="hover:opacity-75 transition">
+      {link}
+    </Link>
+  ))}
+</div>
+
 
         {/* Mobile Action Button */}
         <div className="md:hidden flex justify-center mt-4">

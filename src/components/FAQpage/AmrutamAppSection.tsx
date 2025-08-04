@@ -24,7 +24,7 @@ const features = [
 
 export default function AmrutamAppSection() {
   return (
-    <div className="bg-[#FFF7E2] py-16 px-4 md:px-20 flex flex-col md:flex-row items-center justify-between gap-12 font-poppins">
+    <div className="bg-[#FFF7E2] py-16 px-4 md:px-20 flex flex-col md:flex-col lg:flex-row items-center justify-between gap-12 font-poppins">
       {/* Left Side */}
       <div className="flex-1 w-full">
         <h2 className="text-lg md:text-2xl font-semibold text-green-800">
@@ -33,7 +33,7 @@ export default function AmrutamAppSection() {
         <h2 className="text-lg md:text-2xl font-semibold text-green-800 mb-4">
          App Now
         </h2>
-        <p className="text-gray-700 max-w-md text-sm mb-8">
+        <p className="text-gray-700 md:max-w-screen-lg lg:max-w-md text-sm mb-8">
           The Amrutam Ayurveda App is your one-stop app for all things Ayurveda! Apart from mimicking the website, the app has added benefits
         </p>
 
@@ -54,7 +54,7 @@ export default function AmrutamAppSection() {
         </div>
 
         {/* App Store buttons */}
-        <div className="flex gap-4 justify-center md:justify-start">
+        <div className="flex gap-4 justify-center md:justify-center lg:justify-start">
           <img
             src={GOOGLE_STORE}
             alt="Google Play"

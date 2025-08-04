@@ -87,7 +87,7 @@ import {
               />
               <button
                 type="submit"
-                className="bg-black text-white px-12 py-2 rounded-r-full text-xs hover:bg-gray-800 transition"
+                className="bg-black text-white px-12 md:px-3 lg:px-12 py-2 rounded-r-full text-xs hover:bg-gray-800 transition"
               >
                 Subscribe
               </button>

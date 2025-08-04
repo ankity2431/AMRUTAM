@@ -3,8 +3,8 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div>
-      <div className="flex items-center bg-gradient-to-r from-[#FDEFCB] to-[#fff6df] pt-6 md:pt-0">
-        <div className="font-gupter font-thin  ml-16">
+      <div className="flex flex-col-reverse sm:flex-row items-center bg-gradient-to-r from-[#FDEFCB] to-[#fff6df] pt-6 md:pt-0">
+        <div className="font-gupter font-thin m-3 text-center sm:text-left  md:ml-16">
           <p className="font-poppins text-xs">Namaste, Welcome to Amrutam</p>
           <h1 className="md:text-4xl text-xl font-poppins font-medium mb-2 mt-2">
             Join Amrutam -{" "}
@@ -23,7 +23,7 @@ const HeroSection = () => {
             Join Now
           </button>
 
-          <div className="flex mt-6 text-center font-poppins">
+          <div className="flex mt-6 justify-center sm:justify-start text-center font-poppins">
             <div className="p-4">
               <h1 className="text-2xl font-medium">500+</h1>
               <p className="md:text-[13px] text-[9px]">Average Active</p>
