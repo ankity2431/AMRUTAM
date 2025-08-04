@@ -11,7 +11,7 @@ const ContactForm = () => {
           product inquiries, or personalized advice.
         </p>
 
-        <div className="flex flex-wrap gap-10 justify-center items-start">
+        <div className="flex flex-wrap gap-[1rem] lg:gap-10 justify-center items-start">
           <div className="sm:flex-1  md:h-[330px] rounded-[10px]">
             <img src={contactImg} alt="contact" className="w-full rounded-lg h-[330px]" />
           </div>
