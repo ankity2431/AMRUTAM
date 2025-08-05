@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
-import companyLogo from "../../assets/companyLogo.png";
 import {
   FaPhoneAlt,
   FaShoppingBag,
@@ -42,7 +41,7 @@ const Navbar = () => {
         {/* Logo Centered */}
         <div className="flex justify-center mb-4 md:mb-0">
           <Link to='/'><img
-            src={companyLogo}
+            src={`${import.meta.env.BASE_URL}assets/companyLogo.png`}
             alt="AMRUTAM"
             className="h-5 md:h-10 object-contain"
           /></Link>

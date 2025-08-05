@@ -1,5 +1,4 @@
 import React from "react";
-import heroImg from "../assets/HeroSection.jpg";
 
 const HeroSection = () => {
   return (
@@ -43,7 +42,7 @@ const HeroSection = () => {
         </div>
         <div className="pl-10">
           <img
-            src={heroImg}
+            src={`${import.meta.env.BASE_URL}assets/HeroSection.jpg`}
             alt="hero"
             className="w-45"
           />

@@ -1,43 +1,36 @@
 import Dpromotion from "./Dpromotion";
 import React from 'react';
 
-// Import images from assets
-import doctor1 from '../assets/doctorImg/doctor1.png';
-import doctor2 from '../assets/doctorImg/doctor2.png';
-import doctor3 from '../assets/doctorImg/doctor3.png';
-import doctor4 from '../assets/doctorImg/doctor4.png';
-import doctor5 from '../assets/doctorImg/doctor5.png';
-
 const data = [
   {
     title: "Instant FREE 5–Mins Call",
     description:
       "We understand the importance of building trust with your patients. That’s why Amrutam offers a free 5-minute call, helping you connect instantly and foster lasting patient relationships with ease.",
-      image: doctor1,
+      image: `${import.meta.env.BASE_URL}assets/doctorImg/doctor1.png`,
   },
   {
     title: "Forum for Meaningful Connections",
     description:
       "We value your journey in Ayurveda. The Amrutam Forum helps you engage with patients, answer questions, while the 'Thoughts' section allows you to share deeper Ayurvedic wisdom.",
-      image: doctor2,
+      image: `${import.meta.env.BASE_URL}assets/doctorImg/doctor2.png`,
   },
   {
     title: "Real-time Consultations",
     description:
       "Get instant access to your patients and reduce waiting times by using our secure video consultation tools.",
-      image: doctor3,
+      image:`${import.meta.env.BASE_URL}assets/doctorImg/doctor3.png`,
   },
   {
     title: "Easy Appointment Management",
     description:
       "Manage your appointments, availability, and consultations with our intuitive and hassle-free scheduling system.",
-      image: doctor4,
+      image: `${import.meta.env.BASE_URL}assets/doctorImg/doctor4.png`,
   },
   {
     title: "Patient Record History",
     description:
       "Keep complete track of patient history, prescriptions, and notes in a single organized dashboard built for doctors.",
-      image: doctor5,
+      image: `${import.meta.env.BASE_URL}assets/doctorImg/doctor5.png`,
   },
 ];
 

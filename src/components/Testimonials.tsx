@@ -1,5 +1,5 @@
 import React from "react";
-import testimonial1 from "../assets/testimonial.jpg";
+
 
 const testimonials = [
   {
@@ -8,7 +8,7 @@ const testimonials = [
     rating: 5,
     feedback:
       "Amrutam’s formulations stay true to the ancient wisdom of Ayurveda. Their authentic, chemical-free products help restore balance and promote holistic well-being. I often recommend them to my patients seeking natural healing.",
-    image: testimonial1,
+    image: `${import.meta.env.BASE_URL}assets/testimonial.jpg`,
     highlighted: false,
   },
   {
@@ -17,7 +17,7 @@ const testimonials = [
     rating: 4,
     feedback:
       "Amrutam beautifully bridges the gap between traditional Ayurveda and modern wellness. Their high-quality ingredients and ethical practices make them a trustworthy choice for those looking to embrace a healthier lifestyle.",
-    image: testimonial1,
+      image: `${import.meta.env.BASE_URL}assets/testimonial.jpg`,
     highlighted: true,
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     rating: 5,
     feedback:
       "As an Ayurvedic doctor, I appreciate Amrutam’s commitment to purity and efficacy. Their herbal blends are thoughtfully crafted, ensuring maximum benefits for mind and body. I’ve personally seen positive results in my patients using their products.",
-    image: testimonial1,
+      image: `${import.meta.env.BASE_URL}assets/testimonial.jpg`,
     highlighted: false,
   },
 ];

@@ -4,7 +4,7 @@ import {
   contactInfo,
   infoLinks,
   socialMediaIcons,
-} from "../assets/utils/FooterData";
+} from "../../src/utils/FooterData";
 
 const Footer = () => {
   return (

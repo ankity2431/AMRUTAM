@@ -1,23 +1,22 @@
 import React from 'react';
-import messageLogo from "../../assets/SearchBar/messagelogo.png";
-import faqPageImg from "../../assets/SearchBar/FaqPageimg.png";
-import { GOOGLE_STORE, APPLE_STORE } from "../../assets/utils/constant";
+
+import { GOOGLE_STORE, APPLE_STORE } from "../../../src/utils/constant";
 
 const features = [
   {
-    icon: messageLogo, 
+    icon: `${import.meta.env.BASE_URL}assets/SearchBar/messagelogo.png`, 
     text: 'Access To\n Prescriptions',
   },
   {
-    icon: messageLogo, 
+    icon: `${import.meta.env.BASE_URL}assets/SearchBar/messagelogo.png`, 
     text: 'Track Health\nEfficiently',
   },
   {
-    icon: messageLogo, 
+    icon: `${import.meta.env.BASE_URL}assets/SearchBar/messagelogo.png`, 
     text: 'Direct Chat With\n Doctors',
   },
   {
-    icon: messageLogo, 
+    icon: `${import.meta.env.BASE_URL}assets/SearchBar/messagelogo.png`, 
     text: 'In-App Reminders\nFor Consultations',
   },
 ];
@@ -71,7 +70,7 @@ export default function AmrutamAppSection() {
       {/* Right Side */}
       <div className="flex-1 w-full flex justify-center">
         <img
-          src={faqPageImg} 
+          src={`${import.meta.env.BASE_URL}assets/SearchBar/FaqPageimg.png`}
           alt="Amrutam App Preview"
           className="max-w-xs md:max-w-sm lg:max-w-md"
         />

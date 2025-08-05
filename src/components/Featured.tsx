@@ -1,26 +1,16 @@
 import React from 'react';
 
-// Import images from assets
-import TOI from '../assets/feature_section/times-of-india.png';
-import YourStory from '../assets/feature_section/yourStory.png';
-import CNTraveller from '../assets/feature_section/Traveler.png';
-import LivingEtc from '../assets/feature_section/Livingetc.png';
-import VoiceOfFashion from '../assets/feature_section/choiceOfFashion.png';
-import GQ from '../assets/feature_section/GQ.png';
-import LifestyleAsia from '../assets/feature_section/lifeStyleAsia.png';
-import Vogue from '../assets/feature_section/vogue.png';
-import Forbes from '../assets/feature_section/forbes.png';
 
 const logoData = [
-  { src: TOI, alt: 'The Times of India' },
-  { src: YourStory, alt: 'YourStory' },
-  { src: CNTraveller, alt: 'Condé Nast Traveller' },
-  { src: LivingEtc, alt: 'Livingetc' },
-  { src: VoiceOfFashion, alt: 'The Voice of Fashion' },
-  { src: GQ, alt: 'GQ' },
-  { src: LifestyleAsia, alt: 'Lifestyle Asia' },
-  { src: Vogue, alt: 'VOGUE' },
-  { src: Forbes, alt: 'Forbes 30 under 30' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/times-of-india.png`, alt: 'The Times of India' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/yourStory.png`, alt: 'YourStory' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/Traveler.png`, alt: 'Condé Nast Traveller' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/Livingetc.png`, alt: 'Livingetc' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/choiceOfFashion.png`, alt: 'The Voice of Fashion' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/GQ.png`, alt: 'GQ' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/lifeStyleAsia.png`, alt: 'Lifestyle Asia' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/vogue.png`, alt: 'VOGUE' },
+  { src: `${import.meta.env.BASE_URL}assets/feature_section/forbes.png`, alt: 'Forbes 30 under 30' },
 ];
 
 export const Featured = () => {

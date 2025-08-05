@@ -1,5 +1,4 @@
 import React from "react";
-import contactImg from "../assets/contactForm.jpg";
 
 const ContactForm = () => {
   return (
@@ -13,7 +12,7 @@ const ContactForm = () => {
 
         <div className="flex flex-wrap gap-[1rem] lg:gap-10 justify-center items-start">
           <div className="sm:flex-1  md:h-[330px] rounded-[10px]">
-            <img src={contactImg} alt="contact" className="w-full rounded-lg h-[330px]" />
+            <img src={`${import.meta.env.BASE_URL}assets/contactForm.jpg`} alt="contact" className="w-full rounded-lg h-[330px]" />
           </div>
 
           <form className="flex-1  bg-white border border-gray-300 rounded-[8px] p-6 text-left">

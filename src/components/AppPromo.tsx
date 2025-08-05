@@ -1,12 +1,6 @@
 import React from "react";
 
-import { GOOGLE_STORE, APPLE_STORE } from "../assets/utils/constant";
-
-import phone from "../assets/appointment.png";
-import user1 from "../assets/userLogos/user1.png";
-import user2 from "../assets/userLogos/user2.png";
-import user3 from "../assets/userLogos/user3.png";
-import user4 from "../assets/userLogos/user4.png";
+import {GOOGLE_STORE, APPLE_STORE}  from "../../src/utils/constant"
 
 const features = [
   "🌿 Build Trust and Community with Forum",
@@ -60,14 +54,14 @@ const AppPromo = () => {
             {/* Decorative Circles */}
             <div className="absolute w-[4rem] h-[4rem] md:w-20 md:h-20 bg-[#ffeeaa] rounded-full top-20 left-[18px] md:left-[2.5rem] -translate-x-1/2 z-0">
               <img
-                src={user1}
+                src={`${import.meta.env.BASE_URL}assets/userLogos/user1.png`}
                 alt="user1"
                 className="w-full h-full rounded-full"
               />
             </div>
             <div className="absolute w-[4rem] h-[4rem] md:w-20 md:h-20 bg-[#fff5d8] rounded-full bottom-24 left-[18px] md:left-[2.5rem] -translate-x-1/3 z-0">
               <img
-                src={user3}
+                src={`${import.meta.env.BASE_URL}assets/userLogos/user3.png`}
                 alt="user1"
                 className="w-full h-full rounded-full"
               />
@@ -75,14 +69,14 @@ const AppPromo = () => {
 
             <div className="absolute w-[4rem] h-[4rem] md:w-16 md:h-16 bg-[#fff5d8] rounded-full top-[30%] right-[17px] md:right-[4rem] translate-x-1/2 -translate-y-1/2 z-0">
               <img
-                src={user3}
+                src={`${import.meta.env.BASE_URL}assets/userLogos/user3.png`}
                 alt="user1"
                 className="w-full h-full rounded-full"
               />
             </div>
             <div className="absolute w-[4rem] h-[4rem] md:w-20 md:h-20 bg-[#fff5d8] rounded-full top-[68%] right-[15px] md:right-[4rem] translate-x-1/2 -translate-y-1/2 z-0">
               <img
-                src={user1}
+                src={`${import.meta.env.BASE_URL}assets/userLogos/user1.png`}
                 alt="user1"
                 className="w-full h-full rounded-full"
               />
@@ -91,7 +85,7 @@ const AppPromo = () => {
             {/* Phone */}
             <div className="relative w-[14rem] md:w-72 z-10">
               <img
-                src={phone}
+                src={`${import.meta.env.BASE_URL}assets/appointment.png`}
                 alt="phone"
                 className="w-full object-contain relative z-0"
               />

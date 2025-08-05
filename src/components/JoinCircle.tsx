@@ -1,8 +1,8 @@
 import React,{ useContext } from 'react'
 import StepCard from './StepCard'
 import Visual from './JoinCircleVisual'
-import { ConsultationSteps } from '../assets/utils/constant';
-import { SelectedIndexContext } from '../assets/utils/SelectedIndexContext';
+import { ConsultationSteps } from '../../src/utils/constant';
+import { SelectedIndexContext } from '../../src/utils/SelectedIndexContext';
 
 const JoinCircle = () => {
   

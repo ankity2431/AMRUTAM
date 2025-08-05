@@ -1,9 +1,6 @@
 import React, { useContext, useState } from "react";
-import iphone from "../assets/Consultation/iphone.png";
-import iphone2 from "../assets/Consultation/iphone2.png";
-import iphone3 from "../assets/Consultation/iphone3.png";
 
-import { SelectedIndexContext } from "../assets/utils/SelectedIndexContext";
+import { SelectedIndexContext } from "../../src/utils/SelectedIndexContext";
 
 const ConsultationSection = () => {
   const buttons = ["Consultations", "Payment withdrawal", "Schedule"];
@@ -12,17 +9,17 @@ const ConsultationSection = () => {
   const phones = [
     {
       title: "Value Your Practice",
-      img: iphone,
+      img: `${import.meta.env.BASE_URL}assets/Consultation/iphone.png`,
       titlePosition: "top",
     },
     {
       title: "Today's Healing Journey",
-      img: iphone2,
+      img: `${import.meta.env.BASE_URL}assets/Consultation/iphone2.png`,
       titlePosition: "bottom",
     },
     {
       title: "Consultation Details",
-      img: iphone3,
+      img: `${import.meta.env.BASE_URL}assets/Consultation/iphone3.png`,
       titlePosition: "top",
     },
   ];

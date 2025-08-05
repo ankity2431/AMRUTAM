@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from './Layout'
 import './App.css'
-import { SelectedIndexProvider } from './assets/utils/SelectedIndexContext';
+import { SelectedIndexProvider } from './utils/SelectedIndexContext';
 
 function App() {
   return (
